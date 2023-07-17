@@ -79,3 +79,30 @@ main{
 .conf-color-3-b{
     background-color: gray;
 }
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(133, 119, 128, 0.432)!important;
+}
+
+.navbar-brand {
+    color: #EEEEEE;   
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #EEEEEE;
+}
+
+.nav-link {
+    color: #EEEEEE;   
+}
+
+.navbar-nav {
+  --bs-nav-link-disabled-color: #EEEEEE;
+}
+
+.dropdown-item {
+   color: #EEEEEE;
+   background-color: #9E9E9E;
+   
+}
